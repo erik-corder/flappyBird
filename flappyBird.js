@@ -24,7 +24,7 @@ var constant;
 var bX = 5;
 var bY = 150;
 
-var gravity = 1.5;
+var gravity = 1;
 
 var score = 0;
 
@@ -33,7 +33,7 @@ var score = 0;
 document.addEventListener("keydown",moveUp);
 
 function moveUp(){
-    bY -= 25;
+    bY -= 30;
 }
 
 // pipe coordinates
